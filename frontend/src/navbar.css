@@ -1,0 +1,39 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    position: fixed; /* Keeps the navbar at the top */
+    top: 0;
+    left: 0; /* Ensures the navbar starts at the very left of the screen */
+    width: 100%; /* Makes the navbar span the entire width of the screen */
+    z-index: 1000; /* Keeps the navbar on top of other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a better look */
+}
+  
+.navbar-logo a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+  
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+  
+.navbar-links li a:hover {
+    color: #f0a500;
+}
